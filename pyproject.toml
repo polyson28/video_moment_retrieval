@@ -4,4 +4,7 @@ version = "0.1.0"
 description = "Finding episodes in videos based on text queries"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["matplotlib (>=3.10.8,<4.0.0)", "pandas (>=3.0.3,<4.0.0)", "scikit-learn (>=1.8.0,<2.0.0)"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

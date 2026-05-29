@@ -1,10 +1,22 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.pyc
 build/
 dist/
 wheels/
 *.egg-info
+.ipynb_checkpoints/
+.DS_Store
+.matplotlib_cache/
 
 # Virtual environments
 .venv
+
+# Data
+data/
+
+# results & outputs
+results/
+outputs/
+notebooks/research/
